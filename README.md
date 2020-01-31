@@ -1,6 +1,5 @@
-<h2>Acerca del proyecto</h2>
+# Acerca del proyecto
 La empresa X solicita una aplicación web para registrar solicitudes de permisos, para llevar a cabo esta tarea se requiere cumplir con los siguientes pasos:
-
 * Crear una tabla con el nombre Permisos.
 * Crear una tabla con el nombre TipoPermiso.
 * Establecer relacion entre Permisos y TipoPermiso.
@@ -12,7 +11,7 @@ La empresa X solicita una aplicación web para registrar solicitudes de permiso
 * Solo tendras que hacer la operacion de insertar en la table Permiso y eliminar permiso.
 * Usar buenas practicas.
 
-<h2>Herramientas utilizadas</h2>
+# Herramientas utilizadas
 * Git bash (consola de desarrollo)
 * Node.js (gestión de paquetes a traves de npm)
 * Sourcetree (sincronización de repositorio de Git)
@@ -20,7 +19,7 @@ La empresa X solicita una aplicación web para registrar solicitudes de permiso
 * Visual Studio 2019 (desarrollo de proyecto backend en C#, netCore y Entity Framework)
 * XAMPP (prueba de endpoints de la aplicación)
 
-<h2>Lista de endpoints</h2>
+# Lista de endpoints
 * GET: api/TipoPermisos/Listar
 * GET: api/TipoPermisos/Mostrar/id
 * GET: api/Permisos/Listar
