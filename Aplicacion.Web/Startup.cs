@@ -28,6 +28,8 @@ namespace Aplicacion.Web
                 options.AddPolicy("all",
                 builder => builder.WithOrigins("*").WithHeaders("*").WithMethods("*"));
             });
+
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,7 +46,14 @@ namespace Aplicacion.Web
 
             app.UseCors("all");
             app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseStaticFiles();
+            app.UseMvc(routes => {
+                routes.MapRoute(name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+                routes.MapSpaFallbackRoute(
+                name: "spa-fallback",
+                defaults: new { controller = "Home", action = "Index" });
+            });
         }
     }
 }
