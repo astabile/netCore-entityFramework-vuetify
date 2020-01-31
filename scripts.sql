@@ -44,3 +44,6 @@ DBCC CHECKIDENT ("tipo_permiso", RESEED, 0);
 -- 5 Eliminación de tablas del sistema
 drop table permiso;
 drop table tipo_permiso;
+
+
+
