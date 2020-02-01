@@ -17,7 +17,7 @@ La empresa X solicita una aplicación web para registrar solicitudes de permiso
 * Sourcetree (sincronización de repositorio de Git)
 * Visual Studio Core (desarrollo de proyecto frontend en vue)
 * Visual Studio 2019 (desarrollo de proyecto backend en C#, netCore y Entity Framework)
-* XAMPP (prueba de endpoints de la aplicación)
+* Postman (prueba de endpoints de la aplicación)
 
 # Lista de endpoints
 * GET: api/TipoPermisos/Listar
